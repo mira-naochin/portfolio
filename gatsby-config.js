@@ -11,6 +11,7 @@ module.exports = {
     // See all options: https://github.com/LekoArts/gatsby-themes/blob/master/themes/gatsby-theme-cara/gatsby-config.js
     siteTitleAlt: `Cara - Gatsby Starter Portfolio`,
   },
+  pathPrefix: "/portfolio",
   plugins: [
     {
       resolve: `@lekoarts/gatsby-theme-cara`,
@@ -45,7 +46,7 @@ module.exports = {
             type: `image/png`,
           },
         ],
-        crossOrigin: `use-credentials`,
+        // crossOrigin: `use-credentials`,
       },
     },
     `gatsby-plugin-offline`,
