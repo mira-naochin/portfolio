@@ -14,17 +14,6 @@ module.exports = {
   pathPrefix: "/portfolio",
   plugins: [
     {
-      resolve: `@lekoarts/gatsby-theme-cara`,
-      // See the theme's README for all available options
-      options: {},
-    },
-    {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        trackingId: process.env.GOOGLE_ANALYTICS_ID,
-      },
-    },
-    {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `Cara - @lekoarts/gatsby-theme-cara`,
@@ -46,7 +35,7 @@ module.exports = {
             type: `image/png`,
           },
         ],
-        // crossOrigin: `use-credentials`,
+        crossOrigin: `use-credentials`,
       },
     },
     `gatsby-plugin-offline`,
