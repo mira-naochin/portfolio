@@ -45,6 +45,7 @@ module.exports = {
             type: `image/png`,
           },
         ],
+        crossOrigin: `use-credentials`,
       },
     },
     `gatsby-plugin-offline`,
